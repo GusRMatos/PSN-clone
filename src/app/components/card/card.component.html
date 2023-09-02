@@ -1,0 +1,16 @@
+<!-- Ancora com a capa do game-->
+<a href="" class="card__container">
+    <!-- capa do jogo-->
+    <img 
+        class="card__img"
+        [src]=[gameCover]  
+        alt=""
+        srcset="">
+    <!-- chamada da tag e input do conteudo da mesma-->
+    <app-card-label
+    gameLabel = {{gameLabel}}>
+    </app-card-label>
+    <app-card-pricing
+    gameType={{gameType}}
+    gamePrice={{gamePrice}}></app-card-pricing>
+</a>

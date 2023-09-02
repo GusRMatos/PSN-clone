@@ -1,0 +1,10 @@
+/* formata a div que contem os cards*/
+.home__container{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    aling-items: baseline;
+    flex-wrap: wrap; 
+}
